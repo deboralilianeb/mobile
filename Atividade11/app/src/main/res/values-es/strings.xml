@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Actividad XI</string>
+    <string name="msg">Numero dibujado!!!</string>
+    <string name="instruction">Trata de adivinarlo ... Buena suerte: D</string>
+    <string name="guess">Adivina</string>
+    <string name="tip">Ingrese un número entre 1 y 10</string>
+    <string name="acertou">Golpear</string>
+    <string name="errou">Cometió un error</string>
+    <string name="encerrar_aplica_o">Terminar solicitud</string>
+    <string name="tentar_novamente">Intentar nuevamente</string>
+</resources>

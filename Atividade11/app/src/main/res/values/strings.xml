@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Atividade XI</string>
+    <string name="msg">Um número foi sorteado </string>
+    <string name="instruction">Tente acertá-lo...</string>
+    <string name="guess">Chutar</string>
+    <string name="tip">Chute um número de 1 e 10</string>
+    <string name="encerrar_aplica_o">Fechar</string>
+    <string name="tentar_novamente">Tentar Novamente</string>
+    <string name="getnumero">Numero</string>
+    <string name="acertou">Acertou</string>
+    <string name="errou">Errou</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_operando1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:inputType="numberDecimal"
+        android:hint="@string/digite_um_valor" />
+
+    <EditText
+        android:id="@+id/edit_operando2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:inputType="numberDecimal"
+        android:hint="@string/digite_um_valor"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_adicionar"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/adicionar"/>
+
+        <Button
+            android:id="@+id/button_subtrair"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/subtrair"/>
+
+        <Button
+            android:id="@+id/button_multiplicar"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/multiplicar"/>
+
+        <Button
+            android:id="@+id/button_dividir"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dividir"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:text="@string/resultado" />
+
+</LinearLayout>

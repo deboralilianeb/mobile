@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Activity XI</string>
+    <string name="msg">Number Drawn!!!</string>
+    <string name="instruction">Try to guess it ... Good Luck: D</string>
+    <string name="guess">Guess</string>
+    <string name="tip">Enter a number between 1 and 10</string>
+    <string name="acertou">Got it right</string>
+    <string name="errou">Error</string>
+    <string name="encerrar_aplica_o">Terminate Application</string>
+    <string name="tentar_novamente">Try again</string>
+</resources>

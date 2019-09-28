@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Atividade 10</string>
+    <string name="peso">Peso</string>
+    <string name="altura">Altura</string>
+    <string name="getAltura">Digite a altura</string>
+    <string name="getPeso">Digite o peso</string>
+    <string name="calculaimc">Calcular IMC</string>
+</resources>

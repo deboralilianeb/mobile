@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Atividade15</string>
+    <string name="formnome">Nome</string>
+    <string name="formidade">Idade</string>
+    <string name="formsexo">Sexo</string>
+    <string name="radio_masc">Maculino</string>
+    <string name="radio_fem">Feminino</string>
+    <string name="renda">Renda</string>
+    <string name="formbtnsalvar">Salvar</string>
+</resources>

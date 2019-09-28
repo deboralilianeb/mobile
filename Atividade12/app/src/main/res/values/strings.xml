@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Atividade 12</string>
+    <string name="adicionar">+</string>
+    <string name="subtrair">-</string>
+    <string name="multiplicar">*</string>
+    <string name="dividir">/</string>
+    <string name="op1">3</string>
+    <string name="op2">4</string>
+    <string name="resultado">Resultado</string>
+    <string name="digite_um_valor">Digite um valor</string>
+</resources>

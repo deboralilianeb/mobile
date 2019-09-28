@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/nome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/formnome"
+                android:inputType="textCapWords"></EditText>
+
+        <EditText
+            android:id="@+id/idade"
+            android:layout_height="wrap_content"
+            android:hint="@string/formidade"
+            android:inputType="number"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Sexo: "/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioGroup
+                    android:id="@+id/radioSex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radioMasc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_masc"
+                        android:checked="true" />
+
+                    <RadioButton
+                        android:id="@+id/radioFemale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_fem" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/renda"
+                android:layout_height="wrap_content"
+                android:hint="@string/renda"
+                android:inputType="numberDecimal"
+                android:layout_width="fill_parent">
+            </EditText>
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_height="wrap_content"
+            android:text="@string/formbtnsalvar"
+            android:onClick="onClickSalvar"
+            android:layout_width="fill_parent">
+        </Button>
+
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

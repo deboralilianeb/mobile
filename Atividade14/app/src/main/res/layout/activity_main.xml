@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:background="@color/colorFundo"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_op1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:textColor="@color/color1"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txt_op2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:textColor="@color/color1"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txt_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:textColor="@color/color1"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="log"
+            android:textAlignment="center"
+            android:textColor="@color/color3"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btnApagarUm"
+            android:textAlignment="center"
+            android:textColor="@color/color3"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btnPorcentagem"
+            android:textAlignment="center"
+            android:textColor="@color/color3"
+            android:textSize="20sp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btnApagarTudo"
+            android:textAlignment="center"
+            android:textColor="@color/color2"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btn7"
+            android:textAlignment="center"
+            android:textColor="@color/color1"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btn8"
+            android:textAlignment="center"
+            android:textColor="@color/color1"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btn9"
+            android:textAlignment="center"
+            android:textColor="@color/color1"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btnDivisao"
+            android:textAlignment="center"
+            android:textColor="@color/color2"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btn4"
+            android:textAlignment="center"
+            android:textColor="@color/color1"
+            android:textSize="20sp"  />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btn5"
+            android:textAlignment="center"
+            android:textColor="@color/color1"
+            android:textSize="20sp"  />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btn6"
+            android:textAlignment="center"
+            android:textColor="@color/color1"
+            android:textSize="20sp"  />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btnMultiplicacao"
+            android:textAlignment="center"
+            android:textColor="@color/color2"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btn1"
+            android:textAlignment="center"
+            android:textColor="@color/color1"
+            android:textSize="20sp"  />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btn2"
+            android:textAlignment="center"
+            android:textColor="@color/color1"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btn3"
+            android:textAlignment="center"
+            android:textColor="@color/color1"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btnMenos"
+            android:textAlignment="center"
+            android:textColor="@color/color2"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btn0"
+            android:textAlignment="center"
+            android:textColor="@color/color1"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:backgroundTintMode="src_over"
+            android:text="@string/btnVirgula"
+            android:textAlignment="center"
+            android:textColor="@color/color1"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btnResultado"
+            android:textAlignment="center"
+            android:textColor="@color/color1"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@color/colorFundo"
+            android:text="@string/btnMais"
+            android:textAlignment="center"
+            android:textColor="@color/color2"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
